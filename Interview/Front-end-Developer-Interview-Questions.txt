@@ -1,0 +1,46 @@
+﻿General
+1. How do you organize your code structure?
+2. Can you describe you workflow when you create a web app?
+3. How do you unit test your javascript?
+4. What can you do to improve page performance?
+5. If you have an issue with your page, how do you debug it, what tools do you use?
+6. MVC/MVW?
+7. OOP?
+8. What did you use Bootstrap for?
+
+HTML/HTML5
+1. What is the DOM?
+2. What is HTML5?
+3. DocType declaration in HTML5? If do not put it will html work?
+4. Disadvantages when we use HTML5?
+5. How many kind of local storage?
+6. What are the different between localstorge and cookies?
+7. What is the "use strict"? what are the advantages and disadvantages to using it?
+8. What are the different between div and span?
+9. How do you read and write a file using Javascript?
+
+CSS/CSS3
+1. What is the difference between CSS and CSS3 ??
+2. Disadvantages when we use CSS3?
+2. How do you include a comment in CSS?
+3. How would you apply CSS in a HTML document?
+4. What is CSS selector?
+5. What is CSS3 word-wrap?
+
+JS
+1. What are the advantages and disadvantages of Javascript?
+2. What are global variables? How are they declared? What are the problems with using globals?
+3. What are JavaScript types?
+4. What is the difference between undefined and null?
+5. What is the difference between == and ===?
+6. How do you create a Javascript object?
+7. What is difference between “Window.onload” and “ondocumentready” ?
+8. In Javacripst, check a variable is object or not?
+
+JQuery
+1. What is JQuery?
+2. What are the features of JQuery?
+3. Advantages and Disadvantages of JQuery?
+4. What does dollar Sign ($) means in JQuery?
+5. What is JQuery UI (disadvantages and advantages )?
+6. How would you get the value of form elements using JQuery?
