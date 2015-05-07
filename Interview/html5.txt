@@ -1,0 +1,63 @@
+What is the DOME?
+> DOM-Document Object Model is an API(Application Programing Interface) for VALID HTML and WELL-FORMAT XML document
+> DOM defines the logical structure of document and the way a document is accessed and manipulatin  
+
+What is the HTML5
+> HTML5 is a fifth reversion of HTML
+> HTML added many interesting features which the old versions don't have them:
+	+ New element, Attribute(tags, input type)
+	+ Full CSS3 support.
+	+ Video and Audio (Multimedia)
+	+ 2D  and 3D graphics.
+	+ Local storage + Local SQL query
+	+ Web applications
+	+ Sementic tag
+
+DocType declaration in HTML5
+> HTML5 only use one simple tag to declare DOCTYPE: <!DOCTYPE html>	
+
+Disadvantages when we use HTML5
+> HTML5 is still a work in progress.
+> HTML is only yet an official standard. No browsers have full HTML5 support.
+
+Some new input types:
+> color/date/datetime/email/month/number/range/search/tel/time/url/week
+> Select your favorite color: <input type="color" name="favorite">
+
+HTML5 multimedia support
+> we can use <audio> and <video> tag
+	<video width="320" height="320" controls>
+		<source src="movie.mp4" type="video/mp4">
+		<source src="movie.org" type="video/org">
+		<source src="movie.webm" type="video/webm">
+	</video>
+	problems:
+		+ You must convert your videos to many different formats.
+		+ The <video> element does not work in older brosers.
+		
+Can you give something graphical feature?
+> With HTML5, we can draw the graphics easier than ever. HTML5 supports canvas and SVG for drawing:
+	- Canvas
+		+ The HTML5 <canvas> element is used to draw graphics, on the fly, via scripting
+		+ The <canvas> element is only a container for graphics
+		
+		+ Examples to create a canvas:
+			Defines canvas:
+				<canvas id="myCanvas" width="320" height="320" style="border: 1px solid #000000"/>
+			Use script to draw graphic to canvas
+				<scipt>
+					var c = document.getElementById('myCanvas');
+					var ctx = c.getContext('2d');
+					ctx.fillStyle = '#FF0000';
+					ctx.fillRect(0,0,150,75);
+				</scipt>
+	- SVG advandtages
+		+ Advandtages of using SVG over other image formats(like JPEG and GIF) are:
+			++ SVG images can be created and edited any text editor
+			
+Local storege
+> With HTML5, web pages can store data locally within the user's browsers
+	+ As we know, earlier, this feature was done by cookies
+	+ However, web storage with HTML5 has more secure and faster
+	
+				
